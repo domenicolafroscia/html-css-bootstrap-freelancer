@@ -130,4 +130,29 @@ nav {
 }
 
 /* FOOTER */
+/* footer top */
+.footer-top {
+    background-color: #3A546D;
+    padding-bottom: 4rem;
+}
 
+.footer-card {
+    text-align: center;
+    /* debug */
+    background-color: chartreuse;
+    height: 80px;
+}
+
+/* footer bottom */
+.footer-bottom {
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer-bottom p {
+    font-size: .8rem;
+}

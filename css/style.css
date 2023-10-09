@@ -3,6 +3,19 @@ img {
     max-width: 100%;
 }
 
+body {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.titles {
+    text-align: center;
+}
+
 /* HEADER */
 nav {
     background-color: #2C3E50;
@@ -17,13 +30,25 @@ nav {
 /* section hero */
 .hero {
     background-color: #1ABC9C;
-    height: 400px;
+    padding: 50px 0;
+    /* debug */
+    min-height: 400px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 3rem;
+    /* debug */
+    background-color: red;
+    height: 300px;
 }
 
 /* section portfolio */
 .title-portfolio {
-    text-align: center;
     margin-top: 3rem;
+    color: #333333;
 }
 
 .card {
@@ -55,10 +80,54 @@ nav {
     background-color: #CCB2A3;
 }
 
+/* section about */
+.about {
+    background-color: #1ABC9C;
+    margin-top: 3rem;
+    /* debug */
+    min-height: 500px;
+}
 
+.wrapper-1 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 0 1.5rem;
+}
 
+.background {
+    /* debug */
+    background-color: #BA4B63;
+    height: 200px;
+}
 
+.download {
+    margin-top: 3rem;
+    text-align: center;
+}
 
+.download-btn {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* contact-section  */
+.title-contact {
+    color: #333333;
+}
+
+.informations {
+    margin-bottom: 3rem;
+    /* debug */
+    background-color: #0E38B5;
+    height: 200px;
+}
+
+.send-informations {
+    /* debug */
+    height: 50px;
+    background-color: brown;
+}
 
 /* FOOTER */
 

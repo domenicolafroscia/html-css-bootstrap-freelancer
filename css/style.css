@@ -12,6 +12,16 @@ a {
     text-decoration: none;
 }
 
+.star {
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+.star hr {
+    width: 35%;
+    border: 2px double;
+  }
+
 /* HEADER */
 /* navg */
 header {
@@ -63,8 +73,6 @@ header {
 /* section about */
 .about {
     background-color: #1ABC9C;
-    /* debug */
-    min-height: 500px;
 }
 
 .wrapper {
@@ -72,59 +80,64 @@ header {
     margin: 0 auto;
 }
 
-.download {
-    margin-top: 3rem;
-    text-align: center;
-}
-
-.download-btn {
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 5px;
-}
-
 /* contact-section  */
+.informations{
+    color: black;
+}
+
 .title-contact {
     color: #333333;
 }
 
-.informations {
-    margin-bottom: 3rem;
-    /* debug */
-    background-color: #0E38B5;
-    height: 200px;
+.ms_btn {
+    background-color: #1ABC9C;
 }
 
-.send-informations {
-    /* debug */
-    height: 50px;
-    background-color: brown;
+.ms_form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.ms_form-control:focus {
+    box-shadow: none;
 }
 
 /* FOOTER */
 /* footer top */
 .footer-top {
     background-color: #3A546D;
-    padding-bottom: 4rem;
 }
 
-.footer-card {
-    text-align: center;
-    /* debug */
-    background-color: chartreuse;
-    height: 80px;
+.footer-top p, span {
+    font-size: .8rem;
+}
+
+.logos {
+    list-style-type: none;
 }
 
 /* footer bottom */
 .footer-bottom {
     background-color: #2C3E50;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
 }
 
 .footer-bottom p {
-    font-size: .8rem;
+    font-size: .7rem;
+}
+
+.logos li {
+    padding-right: 3rem;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 1px;
+}
+
+.color-link {
+    color: #1ABC9C;
 }

@@ -20,51 +20,60 @@
 <body>
     <!-- HEADER -->
     <header class="position-fixed w-100">
-       <div class="container">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-       </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="hero">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="portfolio">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- /HEADER -->
 
     <!-- MAIN -->
     <main>
         <!-- hero -->
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container text-center">
                 <img class="avatar" src="img/avatar.svg" alt="avatar image">
                 <h1>START BOOTSTRAP</h1>
-                <i class="py-3 fs-3 fa-solid fa-star"></i>
+                <div class="d-flex align-items-center justify-content-around star">
+                    <hr/>
+                    <i class="fa-solid fa-star"></i>
+                    <hr/>
+                </div>
                 <P class="pb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</P>
             </div>
         </section>
         <!-- /hero -->
 
         <!-- portfolio section -->
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container">
                 <div class="text-center mt-5 title-portfolio">
                     <h2>PORTFOLIO</h2>
-                    <p><i class="fs-3 py-3 fa-solid fa-star"></i></p>
+                    <div class="d-flex align-items-center justify-content-around star">
+                        <hr/>
+                        <i class="fs-3 py-3 fa-solid fa-star"></i>
+                        <hr/>
+                    </div>
                 </div>
                 <div class="row row-cols-1 g-4 row-cols-md-2 row-cols-lg-3">
                     <div class="col">
@@ -104,28 +113,36 @@
         <!-- /portfolio section -->
 
         <!-- about section -->
-        <section class="about mt-5">
+        <section class="about mt-5" id="about">
             <div class="container">
                 <div class="wrapper py-5">
                     <div class="text-center">
                         <h2>ABOUT</h2>
-                        <p><i class="fs-3 py-3 fa-solid fa-star"></i></p>
+                        <div class="d-flex align-items-center justify-content-around star">
+                            <hr/>
+                            <i class="fs-3 py-3 fa-solid fa-star"></i>
+                            <hr/>
+                        </div>
                     </div>
-                    <div class="row row-cols-1 g-4 row-cols-md-2">
+                    <div class="row row-cols-1 gy-4 row-cols-md-2">
                         <div class="col">
                             <div class="ms_card">
                                 Freelancer is a free bootstrap theme created by Start Botstrap.
-                                The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                                The download includes the complete source files including HTML, CSS, and JavaScript as
+                                well as optional LESS stylesheets for easy customization.
                             </div>
                         </div>
                         <div class="col">
                             <div class="ms_card">
-                                Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting poit!
+                                Whether you're a student looking to showcase your work, a professional looking to
+                                attract clients, or a graphic artist looking to share your projects, this template is
+                                the perfect starting poit!
                             </div>
                         </div>
                     </div>
-                    <div class="download">
-                        <a class="download-btn" href=""><i class="fa-solid fa-download"></i> Download</a>
+                    <div class="mt-5 text-center">
+                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i>
+                            Download</button>
                     </div>
                 </div>
             </div>
@@ -133,19 +150,39 @@
         <!-- /about section -->
 
         <!-- contact-section -->
-        <section class="contact">
+        <section class="contact py-5" id="contact">
             <div class="wrapper">
                 <div class="text-center title-contact">
                     <h2>CONTACT ME</h2>
-                    <p><i class="fs-3 py-3 fa-solid fa-star"></i></p>
+                    <div class="d-flex align-items-center justify-content-around star">
+                        <hr/>
+                        <i class="fs-3 py-3 fa-solid fa-star"></i>
+                        <hr/>
+                    </div> 
                 </div>
-                <div class="informations">
-
+                <div class="mb-5 informations">
+                    <div class="mb-3">
+                        <form action="">
+                            <div>
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="text" class="ms_form-control form-control" id="exampleFormControlInput2">
+                            </div>
+                            <div>
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="ms_form-control form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div>
+                                <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                                <input type="text" class="ms_form-control form-control" id="exampleFormControlInput3">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="ms_form-control form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <button type="submit" value="submit" class="mt-3 btn ms_btn">Send</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="send-informations">
-
-                </div>
-            </div>
         </section>
         <!-- /contact-section -->
     </main>
@@ -153,30 +190,44 @@
 
     <!-- FOOTER -->
     <footer>
-        <section class="footer-top">
+        <!-- footer top -->
+        <section class="footer-top pb-5">
             <div class="container">
                 <div class="row row-cols-1 g-5 row-cols-md-3">
                     <div class="col">
-                        <div class="footer-card">
-
+                        <div class="text-center footer-card">
+                            <h5>LOCATION</h5>
+                            <p class="m-0">2215 John Daniel Drive Clark, MO</p>
+                            <span>54243</span>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="footer-card">
-
+                        <div class="text-center footer-card">
+                            <h5>AROUND THE WEB</h5>
+                            <ul class="logos d-flex justify-content-center">
+                                <li><a href=""><i class="logo rounded-circle border fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="logo rounded-circle border fa-brands fa-google-plus-g"></i></a></li>
+                                <li><a href=""><i class="logo rounded-circle border fa-brands fa-twitter"></i></a></li>
+                                <li><a href=""><i class="logo rounded-circle border fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="footer-card">
-
+                        <div class="text-center footer-card">
+                            <h5>ABOUT FREELANCER</h5>
+                            <p class="m-0">Freelance is a free to use, open source Bootstrap theme created by <a class="color-link" href="">Start Bootstrap.</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="footer-bottom">
+        <!-- /footer top -->
+
+        <!-- footer bottom  -->
+        <section class="footer-bottom text-center pt-4 pb-2">
             <p>Copyright <i class="fa-regular fa-copyright"></i> Your website 2019</p>
         </section>
+        <!-- /footer bottom  -->
     </footer>
     <!-- /FOOTER -->
 </body>

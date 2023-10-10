@@ -36,11 +36,6 @@ header {
     color: #333333;
 }
 
-.card {
-    /* debug */
-    height: 200px;
-}
-
 .card-1 {
     background-color: #BA4B63;
 }
@@ -68,7 +63,6 @@ header {
 /* section about */
 .about {
     background-color: #1ABC9C;
-    margin-top: 3rem;
     /* debug */
     min-height: 500px;
 }
@@ -76,13 +70,6 @@ header {
 .wrapper {
     width: 70%;
     margin: 0 auto;
-    padding: 3rem 0 1.5rem;
-}
-
-.background {
-    /* debug */
-    background-color: #BA4B63;
-    height: 200px;
 }
 
 .download {

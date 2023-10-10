@@ -12,42 +12,27 @@ a {
     text-decoration: none;
 }
 
-.titles {
-    text-align: center;
-}
-
 /* HEADER */
-nav {
+/* navg */
+header {
     background-color: #2C3E50;
-    position: fixed;
-    width: 100%;
     z-index: 200;
-    /* debug */
-    height: 50px;
 }
 
 /* MAIN */
 /* section hero */
 .hero {
     background-color: #1ABC9C;
-    padding: 50px 0;
-    /* debug */
-    min-height: 400px;
 }
 
-.wrapper {
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
-    margin-top: 3rem;
-    /* debug */
-    background-color: red;
+.avatar {
+    width: 300px;
     height: 300px;
+    padding-top: 5rem;
 }
 
 /* section portfolio */
 .title-portfolio {
-    margin-top: 3rem;
     color: #333333;
 }
 
@@ -88,7 +73,7 @@ nav {
     min-height: 500px;
 }
 
-.wrapper-1 {
+.wrapper {
     width: 70%;
     margin: 0 auto;
     padding: 3rem 0 1.5rem;

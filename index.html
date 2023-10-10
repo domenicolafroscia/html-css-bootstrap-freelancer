@@ -19,12 +19,30 @@
 
 <body>
     <!-- HEADER -->
-    <header>
-        <nav>
-            <div class="flex container-md">
-
+    <header class="position-fixed w-100">
+       <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
+       </div>
     </header>
     <!-- /HEADER -->
 
@@ -32,37 +50,39 @@
     <main>
         <!-- hero -->
         <section class="hero">
-            <div class="wrapper">
-
+            <div class="container text-center">
+                <img class="avatar" src="img/avatar.svg" alt="avatar image">
+                <h1>START BOOTSTRAP</h1>
+                <i class="py-3 fs-3 fa-solid fa-star"></i>
+                <P class="pb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</P>
             </div>
         </section>
         <!-- /hero -->
 
         <!-- portfolio section -->
         <section class="portfolio">
-            <div class="titles title-portfolio">
-                <h2>PORTFOLIO</h2>
-                <p><i class="fa-solid fa-star"></i></p>
-            </div>
-
-            <div class="container-md">
-                <div class="row">
-                    <div class="col-12 gy-4 col-md-6 col-lg-4">
+            <div class="container">
+                <div class="text-center mt-5 title-portfolio">
+                    <h2>PORTFOLIO</h2>
+                    <p><i class="fs-3 py-3 fa-solid fa-star"></i></p>
+                </div>
+                <div class="row row-cols-1 g-4 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
                         <div class="card card-1"></div>
                     </div>
-                    <div class="col-12 gy-4 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card card-2"></div>
                     </div>
-                    <div class="col-12 gy-4 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card card-3"></div>
                     </div>
-                    <div class="col-12 gy-4 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card card-4"></div>
                     </div>
-                    <div class="col-12 gy-4 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card card-5"></div>
                     </div>
-                    <div class="col-12 gy-4 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card card-6"></div>
                     </div>
                 </div>
@@ -73,17 +93,17 @@
 
         <!-- about section -->
         <section class="about">
-            <div class="container-fluid">
-                <div class="wrapper-1">
-                    <div class="titles">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="text-center">
                         <h2>ABOUT</h2>
-                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fs-3 py-3 fa-solid fa-star"></i></p>
                     </div>
-                    <div class="row">
-                        <div class="col-12 gy-4 col-md-6">
+                    <div class="row row-cols-1 g-4 row-cols-md-2">
+                        <div class="col">
                             <div class="background"></div>
                         </div>
-                        <div class="col-12 gy-4 col-md-6">
+                        <div class="col">
                             <div class="background"></div>
                         </div>
                     </div>
@@ -97,10 +117,10 @@
 
         <!-- contact-section -->
         <section class="contact">
-            <div class="wrapper-1">
-                <div class="titles title-contact">
+            <div class="wrapper">
+                <div class="text-center title-contact">
                     <h2>CONTACT ME</h2>
-                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fs-3 py-3 fa-solid fa-star"></i></p>
                 </div>
                 <div class="informations">
 
@@ -117,19 +137,19 @@
     <!-- FOOTER -->
     <footer>
         <section class="footer-top">
-            <div class="container-sm">
-                <div class="row">
-                    <div class="col-12 gy-5 col-md-4">
+            <div class="container">
+                <div class="row row-cols-1 g-5 row-cols-md-3">
+                    <div class="col">
                         <div class="footer-card">
 
                         </div>
                     </div>
-                    <div class="col-12 gy-5 col-md-4">
+                    <div class="col">
                         <div class="footer-card">
 
                         </div>
                     </div>
-                    <div class="col-12 gy-5 col-md-4">
+                    <div class="col">
                         <div class="footer-card">
 
                         </div>
